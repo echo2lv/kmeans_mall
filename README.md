@@ -6,8 +6,12 @@ Link: [Customer Segmentation (K-Means) | Analysis](https://www.kaggle.com/kushal
 Author: [Kushal Mahindrakar](https://www.kaggle.com/kushal1996)
 
 ## Contents
-kmeans.py
-* following concepts provided by author
+CSV Files:
+* Mall_Customers.csv - Original raw data from kaggle dataset
+* Mall_Customers_mvar.csv - Modified raw data to add 'Credit Score' column to add another layer to kmeans cluster
+* Mall_Customers_mvar_cluster - Modified raw data file with 'Credit Score' + new column cluster_grp for cluster label
 
-kmeans_mvar.py
-* i added another variable to see how the current workflow accepts another variable
+Python files:
+* kmeans.py - following concepts provided by author
+* kmeans_mvar.py - i added another variable to see how the current workflow accepts another variable
+
